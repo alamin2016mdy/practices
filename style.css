@@ -1,25 +1,82 @@
-li{
-    display: inline-block;
+* {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
-    position: relative;
-}
-a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 5px;
-    padding: 5px;
-    background-color: #241909;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-a:hover{
-    background-color: #CAD8DE;
-    color: #241909;
+    color: black;
+    background-color: rgb(237, 248, 237);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-ul ul{
-    position: absolute;
-    left: 0px;
-    top: 35px;
-    width: 200px;
+body {
+    margin: 20px 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    margin-left: 25px;
+}
+
+.btn {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(62, 175, 122);
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.hero, .e-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.half p{
+    margin-bottom: 15px;
+    color: rgb(255, 109, 56);
+
+}
+
+.half span{
+    color: rgb(62, 175, 122);
+}
+
+.half h2{
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.half .margin{
+    color: black;
+    margin-bottom: 25px;
+}
+
+.inc-card img{
+    width: 50px;
+}
+
+.inc-card{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px ;
+    margin-top: 50px;
 }
